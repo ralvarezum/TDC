@@ -75,6 +75,7 @@ for x in range(1,len(linesf),1):
     print("----------------------------------------------------------------------------------------------------------\n")
 """
 #Funciona con cualquier cantidad de usuarios
+#python3 texto.py > xxxx.txt
 text = input("Ingrese el nombre del archivo: ")
 f=open(text,"r")
 linesf=f.readlines()
